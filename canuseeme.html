@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" href="#" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Can You See Me?</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <p id="instructions">Welcome to the Can You See Me App. tap your screen, hit space or click your mouse to hear where your face appears to other people.</p>
+        <p id="intro">Welcome to my version of the Can U See Me App.
+            This is inspired by and based on the app by Ben Mustill-Rose. available from 
+            <a href="https://canyouseeme.app">Can You See Me</a>
+        </p>
+        
+        <video muted autoplay class="view" id="video"></video>
+        <canvas class="view" id="canvas"></canvas>
+        <script src="./face-api.js/dist/face-api.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
